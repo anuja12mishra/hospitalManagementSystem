@@ -83,7 +83,7 @@ void headMessage(const char *message)
 //Display message
 void welcomeMessage()
 {
-    headMessage("www.aticleworld.com");
+    
     printf("\n\n\n\n\n");
     printf("\n\t\t\t            **-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**\n");
     printf("\n\t\t\t                =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
@@ -524,8 +524,8 @@ void init()
 {
     FILE *fp = NULL;
     int status = 0;
-    const char defaultUsername[] ="aticleworld";
-    const char defaultPassword[] ="aticleworld";
+    const char defaultUsername[] ="anuj";
+    const char defaultPassword[] ="anuj";
     sFileHeader fileHeaderInfo = {0};
     status = isFileExists(FILE_NAME);
     if(!status)
